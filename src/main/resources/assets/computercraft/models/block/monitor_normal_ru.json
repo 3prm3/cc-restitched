@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"4": "computercraft:block/21",
+		"5": "computercraft:block/31",
+		"6": "computercraft:block/01",
+		"7": "computercraft:block/11",
+		"8": "computercraft:block/41",
+		"9": "computercraft:block/51",
+		"10": "computercraft:block/61",
+		"11": "computercraft:block/71",
+		"particle": "computercraft:block/21"
+	},
+	"elements": [
+		{
+			"from": [0, 2, 0],
+			"to": [14, 16, 16],
+			"faces": {
+				"north": {"uv": [2, 0, 16, 14], "texture": "#9"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"south": {"uv": [0, 0, 14, 14], "texture": "#7"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"from": [14, 2, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "texture": "#10"},
+				"east": {"uv": [0, 0, 16, 14], "texture": "#4"},
+				"south": {"uv": [14, 0, 16, 14], "texture": "#4"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [14, 2, 16],
+			"faces": {
+				"north": {"uv": [2, 14, 16, 16], "texture": "#11"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"south": {"uv": [0, 14, 14, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 14], "rotation": 270, "texture": "#4"}
+			}
+		},
+		{
+			"from": [14, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 2, 16], "texture": "#8"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#6"},
+				"south": {"uv": [14, 14, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 14, 16, 16], "rotation": 270, "texture": "#6"}
+			}
+		}
+	]
+}
